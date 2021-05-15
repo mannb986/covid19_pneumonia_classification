@@ -19,7 +19,7 @@ The original datasets contained:
 
 I used a CNN with the following layers:
 
-`model.add(InputLayer(input_shape=(212, 212, 3)))
+model.add(InputLayer(input_shape=(212, 212, 3)))
 model.add(Conv2D(32, 3, padding='same', activation='relu'))
 model.add(MaxPooling2D())
 model.add(Dropout(0.2))
@@ -31,6 +31,6 @@ model.add(MaxPooling2D())
 model.add(Dropout(0.2))
 model.add(Flatten())
 model.add(Dense(512, activation='relu'))
-model.add(Dense(3, activation='softmax'))`
+model.add(Dense(3, activation='softmax'))
 
-The model resulted in a accuracy of the validation data of over 87%. 
+The model resulted in a accuracy of the validation data of just under 90%. 
