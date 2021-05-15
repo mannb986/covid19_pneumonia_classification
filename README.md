@@ -33,4 +33,4 @@ model.add(Flatten())
 model.add(Dense(512, activation='relu'))
 model.add(Dense(3, activation='softmax'))
 
-The model resulted in a accuracy of the validation data of just under 90%. 
+The model resulted in a accuracy of the validation data of just under 94%. 
