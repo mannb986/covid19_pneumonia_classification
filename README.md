@@ -1,0 +1,2 @@
+# covid19_pneumonia_classification
+The task here is to develop a learning model to support doctors with diagnosing illnesses that affect patients' lungs. I will use a set of data provided that is X-rays of lung scans with examples of patients who had either pneumonia, COVID-19, or no illness.  Using Keras module, I will create a classification model that outputs a diagnosis based on a patient's X-ray scan.
